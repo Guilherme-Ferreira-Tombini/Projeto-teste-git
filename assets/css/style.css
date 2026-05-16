@@ -1,0 +1,8 @@
+*{
+    margin: 0;  /* tirado espaço de fora da pagina*/
+    padding: 0; /* tirado espaço de dentro da pagina*/
+    box-sizing: border-box; /* não deixa o elemento estourar na pagina, não deixar sobreposição de elementos*/
+    font-family: Arial, sans-serif;  /* define a fonte dos textos */
+    font-size: 16px;  /* define tamanho da fonte */
+}
+

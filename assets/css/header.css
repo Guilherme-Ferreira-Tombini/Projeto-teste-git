@@ -1,0 +1,59 @@
+/* =============== estilo para HEADER ================== */
+
+header{
+    /* Dar cor de fundo na barra de navegação */
+    background-color: #333;
+    /* definir cor da fonte da barra de navegação */
+    color: white;
+    /* definir espaço interno entre os elementos */
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    /* Desloca elemento do grupo aonde esta inserido */
+    position: relative;
+}
+
+/* ========== estilo para logo =============== */
+#logo{
+    /* tamanhos da imagem */
+    height: 50px;
+    width: 50px;
+}
+
+
+/* ========== estilo para o menu de navegação =============== */
+nav ul{
+    /* Remove itens de lista, tópicos */
+    list-style: none;
+    display: flex;
+    /* espaço apenas entre os elementos dentro do elemento pai */
+    gap: 20px;
+}
+
+nav ul li a{
+    /* remover undeline do texto */
+    text-decoration: none;
+    color: white;
+    /* espaçamento interno do elemento para 10px para cima e baixo e 20px para direita e esquerda */
+    padding: 10px 20px;
+}
+
+nav ul li a:hover{
+    border-bottom: solid 6px #70A340;
+    background-color: #4d4e47;
+}
+
+/* ======================================== */
+
+.menu-toggle{
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.menu-icon{
+    display: none;
+}
