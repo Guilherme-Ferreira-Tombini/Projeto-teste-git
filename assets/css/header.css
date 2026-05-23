@@ -93,7 +93,7 @@ nav ul li a:hover{
         top: 0;
         left: 0;
         /* definindo efeito para deslizar menu para 100% a esquerda */
-        /* transform: translateX(-100%); */
+        transform: translateX(-100%);
         /* define efeito para deslizar o menu na tela */
         transition: 0.3s ease;
         /* Define a altura do nível da camada do item na tela */
